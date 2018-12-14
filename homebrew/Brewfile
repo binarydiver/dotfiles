@@ -1,0 +1,79 @@
+cask_args appdir: '/Applications'
+
+tap 'caskroom/cask'
+tap 'neovim/neovim'
+tap 'caskroom/drivers'
+tap 'caskroom/fonts'
+
+# Programming
+cask 'java'
+brew 'node@10'
+#brew 'maven'
+#brew 'gradle'
+#brew 'vagrant-completion'
+#brew 'carthage'
+#brew 'rclone'
+#brew 'percona-toolkit'
+brew 'neovim'
+#brew 'gnu-sed', args: ["with-default-names"]
+brew 'watchman'
+#brew 'm-cli'
+brew 'python'
+brew 'git-flow'
+
+# Web Browser
+cask 'google-chrome'
+cask 'firefox'
+
+# JetBrains
+#cask 'intellij-idea'
+#cask 'webstorm'
+#cask 'pycharm'
+#cask 'datagrip'
+#cask 'android-studio'
+
+# Database Client
+#cask 'dbeaver-community'
+#cask 'staruml'
+
+# Other Developer Tools
+cask 'sourcetree'
+cask 'docker'
+#cask 'virtualbox'
+#cask 'virtualbox-extension-pack'
+#cask 'vagrant'
+#cask 'vagrant-manager'
+#cask 'tunnelblick'
+cask 'visual-studio-code'
+#cask 'android-platform-tools'
+cask 'gpg-suite'
+
+# Remote
+#cask 'nomachine'
+
+# Security
+cask 'keybase'
+
+# Drivers
+#cask 'logitech-options'
+
+# Utilities
+cask 'shiftit'
+cask 'appcleaner'
+#cask 'namechanger'
+
+# Cloud Drive
+#cask 'amazon-drive'
+cask 'google-drive-file-stream'
+
+# Graphic Design
+#cask 'gimp'
+#cask 'zeplin'
+
+# Office
+#cask 'adobe-acrobat-reader'
+
+# Fonts
+cask 'font-dejavu-sans'
+cask 'font-source-code-pro'
+cask 'font-d2coding'
