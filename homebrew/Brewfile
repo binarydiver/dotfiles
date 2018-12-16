@@ -70,6 +70,8 @@ cask 'google-drive-file-stream'
 # Graphic Design
 #cask 'gimp'
 #cask 'zeplin'
+#cask 'playmemories-home'
+#cask 'imaging-edge'
 
 # Office
 #cask 'adobe-acrobat-reader'
