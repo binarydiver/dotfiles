@@ -46,8 +46,8 @@ cask 'docker'
 #cask 'vagrant-manager'
 #cask 'tunnelblick'
 cask 'visual-studio-code'
-#cask 'android-platform-tools'
 cask 'gpg-suite'
+cask 'android-studio'
 
 # Remote
 #cask 'nomachine'
@@ -62,6 +62,8 @@ cask 'keybase'
 cask 'shiftit'
 cask 'appcleaner'
 #cask 'namechanger'
+cask 'google-photos-backup-and-sync'
+#cask 'playmemories-home'
 
 # Cloud Drive
 #cask 'amazon-drive'
@@ -70,7 +72,6 @@ cask 'google-drive-file-stream'
 # Graphic Design
 #cask 'gimp'
 #cask 'zeplin'
-#cask 'playmemories-home'
 #cask 'imaging-edge'
 
 # Office
