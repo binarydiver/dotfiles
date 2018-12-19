@@ -79,6 +79,7 @@ cask 'google-drive-file-stream'
 
 # Chatting
 cask 'slack'
+cask 'google-hangouts'
 
 # Fonts
 cask 'font-dejavu-sans'
