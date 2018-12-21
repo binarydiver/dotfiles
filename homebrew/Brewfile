@@ -81,6 +81,9 @@ cask 'google-drive-file-stream'
 cask 'slack'
 cask 'google-hangouts'
 
+# Security
+cask 'veracrypt'
+
 # Fonts
 cask 'font-dejavu-sans'
 cask 'font-source-code-pro'
