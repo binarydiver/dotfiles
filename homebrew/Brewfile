@@ -29,6 +29,7 @@ brew 'dart'
 # Web Browser
 cask 'google-chrome'
 cask 'firefox'
+brew 'homebrew/cask-versions/firefox-developer-edition'
 
 # JetBrains
 #cask 'intellij-idea'
