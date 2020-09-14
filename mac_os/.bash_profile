@@ -1,5 +1,4 @@
-#PS1='\[$(tput setaf 2)\]\u@\h \W>\[\e[0m\] '
-
+# Prompt Style
 function shortwd() {
   num_dirs=3
   pwd_symbol="..."
@@ -9,15 +8,10 @@ function shortwd() {
   fi
   echo -n $newPWD
 }
-
 git_branch() {
   git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
 }
-
 PS1='\[\e[38;5;211m\]$(shortwd)\[\e[38;5;48m\] $(git_branch)\n$ \[\e[0m\]'
 
+# Alias
 alias ll="ls -la"
-
-export JAVA_HOME=$(/usr/libexec/java_home)
-
-#export PATH="/usr/local/opt/node@6/bin:$PATH"

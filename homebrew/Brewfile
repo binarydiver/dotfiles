@@ -1,15 +1,9 @@
 cask_args appdir: '/Applications'
 
-tap 'caskroom/cask'
-tap 'neovim/neovim'
-tap 'caskroom/drivers'
-tap 'caskroom/fonts'
-tap 'pivotal/tap'
-tap 'dart-lang/dart'
+#tap 'caskroom/cask'
 
 # Programming
 #cask 'java'
-brew 'node@12'
 #brew 'yarn'
 #brew 'maven'
 #brew 'gradle'
@@ -17,81 +11,65 @@ brew 'node@12'
 #brew 'carthage'
 #brew 'rclone'
 #brew 'percona-toolkit'
-brew 'neovim'
-#brew 'gnu-sed', args: ["with-default-names"]
-brew 'watchman'
+#brew 'watchman'
 #brew 'm-cli'
-brew 'python'
+#brew 'python'
 brew 'git-flow-avh'
-brew 'springboot'
-brew 'dart'
+#brew 'springboot'
+#brew 'dart'
 
 # Web Browser
 cask 'google-chrome'
-cask 'firefox'
-brew 'homebrew/cask-versions/firefox-developer-edition'
+cask 'homebrew/cask-versions/firefox-developer-edition'
+#cask 'firefox'
 
-# JetBrains
-#cask 'intellij-idea'
-#cask 'webstorm'
-#cask 'pycharm'
-#cask 'datagrip'
-#cask 'android-studio'
+# Editor
+cask 'android-studio'
+cask 'visual-studio-code'
 
 # Database Client
+cask 'mysqlworkbench'
 #cask 'dbeaver-community'
 #cask 'staruml'
 
 # Other Developer Tools
+cask 'iterm'
 cask 'sourcetree'
 cask 'docker'
 #cask 'virtualbox'
 #cask 'virtualbox-extension-pack'
-#cask 'vagrant'
-#cask 'vagrant-manager'
 #cask 'tunnelblick'
-cask 'visual-studio-code'
 cask 'gpg-suite'
-cask 'android-studio'
-
-# Remote
-#cask 'nomachine'
 
 # Security
 cask 'keybase'
 
 # Drivers
-#cask 'logitech-options'
+cask 'homebrew/cask-drivers/logitech-options'
 
 # Utilities
 cask 'shiftit'
 cask 'appcleaner'
-#cask 'namechanger'
-cask 'google-photos-backup-and-sync'
+cask 'namechanger'
 #cask 'playmemories-home'
 
 # Cloud Drive
-#cask 'amazon-drive'
 cask 'google-drive-file-stream'
 
 # Graphic Design
-#cask 'gimp'
+cask 'gimp'
 #cask 'zeplin'
 #cask 'imaging-edge'
 
-# Office
-#cask 'adobe-acrobat-reader'
-
 # Chatting
 cask 'slack'
-cask 'google-hangouts'
 
 # Security
 cask 'veracrypt'
 
 # Fonts
-cask 'font-dejavu-sans'
-cask 'font-source-code-pro'
-cask 'font-firacode-nerd-font-mono'
+cask 'font-dejavu-sans-mono-nerd-font'
+cask 'homebrew/cask-fonts/font-source-code-pro'
+cask 'font-fira-code-nerd-font'
 cask 'font-d2coding'
-cask 'font-jetbrains-mono'
+cask 'font-jetbrains-mono-nerd-font'

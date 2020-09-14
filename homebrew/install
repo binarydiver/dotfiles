@@ -19,6 +19,33 @@ else
   echo "  Homebrew is already installed."
 fi
 
+# Install nvm
+brew install nvm
+mkdir ~/.nvm
+echo "export NVM_DIR="$HOME/.nvm"
+  [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+  [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion" >> ~/.zshrc
+source ~/.zshrc
+nvm install --lts
+
+# Install jenv and java
+brew install jenv
+echo "# jenv
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"" >> ~/.zshrc
+brew install openjdk@11
+jenv add /usr/local/opt/openjdk@11/libexec/openjdk.jdk/Contents/Home
+
+# Install pyenv and python
+brew install pyenv
+echo 'export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"' >> ~/.zshrc
+export LDFLAGS="-L/usr/local/opt/openssl@1.1/lib"
+export CPPFLAGS="-I/usr/local/opt/openssl@1.1/include"
+export PKG_CONFIG_PATH="/usr/local/opt/openssl@1.1/lib/pkgconfig"
+export LDFLAGS="-L/usr/local/opt/readline/lib"
+export CPPFLAGS="-I/usr/local/opt/readline/include"
+export PKG_CONFIG_PATH="/usr/local/opt/readline/lib/pkgconfig"
+
 # Run Homebrew through the Brewfile
 cd "$(dirname $0)"
 echo "› brew bundle"
