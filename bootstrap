@@ -1,9 +1,7 @@
-#! /bin/bash
-#
-# This script installs things.
+#!/bin/zsh
 
 # Find installers and run them iteratively.
-find . -name install | while read installer ; do sh -c "${installer}" ; done
+#find . -name install | while read installer ; do sh -c "${installer}" ; done
 
 # Install Vim Plug.
 #curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
@@ -18,6 +16,9 @@ find . -name install | while read installer ; do sh -c "${installer}" ; done
 
 # Copy iterm setting.
 #cp -rf ./mac_os/com.googlecode.iterm2.plist ~/Library/Preferences/
+
+# Installation
+./mac_os/install-ohmyzsh.sh
 
 # Setup global git config
 git config --global user.email "binarydiver@gmail.com"

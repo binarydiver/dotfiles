@@ -1,6 +1,7 @@
 cask_args appdir: '/Applications'
 
-#tap 'caskroom/cask'
+# 'brew tap'
+tap "homebrew/cask"
 
 # Programming
 #cask 'java'
@@ -33,7 +34,7 @@ cask 'mysqlworkbench'
 #cask 'staruml'
 
 # Other Developer Tools
-cask 'iterm'
+cask 'iterm2'
 cask 'sourcetree'
 cask 'docker'
 #cask 'virtualbox'

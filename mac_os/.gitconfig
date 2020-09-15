@@ -1,6 +1,0 @@
-[commit]
-	gpgsign = true
-[user]
-	signingkey = B5A4BC94
-	name = Jason
-	email = binarydiver@gmail.com

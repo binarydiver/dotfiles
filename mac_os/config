@@ -1,0 +1,23 @@
+Host github.com
+    HostName github.com
+    User binarydiver
+    PreferredAuthentications publickey
+    IdentityFile /Users/jason/.ssh/binarydiver-GitHub
+    AddKeysToAgent yes
+    UseKeychain yes
+
+Host bitbucket.org
+    HostName bitbucket.org
+    User binarydiver
+    PreferredAuthentications publickey
+    IdentityFile /Users/jason/.ssh/binarydiver-Bitbucket
+    AddKeysToAgent yes
+    UseKeychain yes
+
+Host gitlab.com
+    HostName gitlab.com
+    User binarydiver
+    PreferredAuthentications publickey
+    IdentityFile /Users/jason/.ssh/binarydiver-GitLab
+    AddKeysToAgent yes
+    UseKeychain yes
