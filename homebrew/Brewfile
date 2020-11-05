@@ -52,6 +52,7 @@ cask 'homebrew/cask-drivers/logitech-options'
 cask 'shiftit'
 cask 'appcleaner'
 cask 'namechanger'
+cask 'android-file-transfer'
 #cask 'playmemories-home'
 
 # Cloud Drive
