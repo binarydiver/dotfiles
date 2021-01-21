@@ -44,6 +44,7 @@ cask 'gpg-suite'
 
 # Security
 cask 'keybase'
+cask 'authy'
 
 # Drivers
 cask 'homebrew/cask-drivers/logitech-options'
