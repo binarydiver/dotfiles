@@ -3,9 +3,8 @@
 # Find installers and run them iteratively.
 #find . -name install | while read installer ; do sh -c "${installer}" ; done
 
-# Install Vim Plug.
-#curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
-#https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+# Vim
+./mac_os/install-vim.sh
 
 # Copy neovim setting.
 #mkdir -p ~/.config/nvim/
@@ -17,11 +16,11 @@
 # Copy iterm setting.
 #cp -rf ./mac_os/com.googlecode.iterm2.plist ~/Library/Preferences/
 
-# Installation
+# oh_my_zsh
 ./mac_os/install-ohmyzsh.sh
 
 # Setup global git config
-git config --global user.email "binarydiver@gmail.com"
+git config --global user.email "binarydiver@outlook.com"
 git config --global user.signingkey B5A4BC94
 git config --global commit.gpgsign true
 git config --global user.name "Jason Park"
