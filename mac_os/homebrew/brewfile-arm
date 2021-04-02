@@ -11,6 +11,7 @@ cask visual-studio-code-insiders
 # utility
 cask shiftit
 cask appcleaner
+cask namechanger
 
 # security
 cask 1password
