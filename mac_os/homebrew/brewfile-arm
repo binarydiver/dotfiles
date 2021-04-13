@@ -12,6 +12,7 @@ cask "visual-studio-code-insiders"
 cask "shiftit"
 cask "appcleaner"
 cask "namechanger"
+cask "the-unarchiver"
 
 # security
 cask "1password"
