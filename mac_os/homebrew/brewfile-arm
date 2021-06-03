@@ -3,6 +3,7 @@ tap "homebrew/cask-fonts"
 
 # drivers
 cask "logitech-options"
+cask "logitech-g-hub"
 
 # development
 cask "iterm2"

@@ -3,7 +3,6 @@ tap "homebrew/cask"
 
 # utility
 brew "watchman"
-#cask "logitech-g-hub"
 
 # development
 brew "git-flow-avh"
