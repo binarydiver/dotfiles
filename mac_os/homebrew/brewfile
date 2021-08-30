@@ -5,17 +5,30 @@ tap "homebrew/cask-fonts"
 cask "logitech-options"
 cask "logitech-g-hub"
 
+# collaboration
+#cask "microsoft-teams"
+cask "figma"
+
 # development
+cask "docker"
 cask "iterm2"
-cask "visual-studio-code-insiders"
+cask "visual-studio-code"
+cask "sourcetree"
+cask "microsoft-azure-storage-explorer"
+brew "git-flow-avh"
+brew "nvm"
+brew "azure-cli"
 
 # utility
 cask "shiftit"
 cask "appcleaner"
 cask "namechanger"
 cask "the-unarchiver"
+brew "watchman"
+brew "postman"
 
 # security
+cask "adguard"
 cask "1password"
 cask "gpg-suite"
 cask "keybase"
