@@ -18,6 +18,7 @@ cask "microsoft-azure-storage-explorer"
 brew "git-flow-avh"
 brew "nvm"
 brew "azure-cli"
+brew "gh"
 
 # utility
 cask "shiftit"
