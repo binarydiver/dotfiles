@@ -19,6 +19,7 @@ brew "git-flow-avh"
 brew "nvm"
 brew "azure-cli"
 brew "gh"
+brew "tree"
 
 # utility
 cask "shiftit"
