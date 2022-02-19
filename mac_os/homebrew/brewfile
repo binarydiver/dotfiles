@@ -1,5 +1,7 @@
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
+tap "homebrew/cask-drivers"
+tap "homebrew/cask-versions"
 
 # drivers
 cask "logitech-options"
@@ -8,6 +10,7 @@ cask "logitech-g-hub"
 # collaboration
 #cask "microsoft-teams"
 cask "figma"
+cask "google-drive"
 
 # development
 cask "docker"
@@ -16,7 +19,7 @@ cask "visual-studio-code"
 cask "sourcetree"
 cask "microsoft-azure-storage-explorer"
 brew "git-flow-avh"
-brew "nvm"
+#brew "nvm"
 brew "azure-cli"
 brew "gh"
 brew "tree"
@@ -25,10 +28,10 @@ brew "tree"
 cask "shiftit"
 cask "appcleaner"
 cask "namechanger"
-cask "the-unarchiver"
+#cask "the-unarchiver"
 brew "watchman"
 brew "postman"
-brew "ghostscript"
+#brew "ghostscript"
 brew "defaultbrowser"
 
 # security
