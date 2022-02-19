@@ -3,13 +3,15 @@
 echo "--- Install nvm."
 brew install nvm
 
-echo "--- Add setting to zshrc."
+echo "--- Add setting to \".zprofile\"."
 mkdir ~/.nvm
-echo "export NVM_DIR="$HOME/.nvm"
-  [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
-  [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion" >> ~/.zshrc
 
-source ~/.zshrc
+echo "export NVM_DIR=\"$HOME/.nvm\"
+  [ -s \"/opt/homebrew/opt/nvm/nvm.sh\" ] && \. \"/opt/homebrew/opt/nvm/nvm.sh\"
+  [ -s \"/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm\" ] && \. \"/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm\"" >> ~/.zprofile
 
-echo "--- Install latest node-lts."
-nvm install --lts
+source ~/.zprofile
+
+echo "--- Install specific node version."
+nvm install 14
+nvm alias default 14
