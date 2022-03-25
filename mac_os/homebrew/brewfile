@@ -15,6 +15,7 @@ cask "google-drive"
 # development
 cask "docker"
 cask "iterm2"
+cask "fig"
 cask "visual-studio-code"
 cask "sourcetree"
 cask "microsoft-azure-storage-explorer"
