@@ -15,8 +15,9 @@ code --install-extension ms-vscode-remote.remote-containers
 code --install-extension ms-vscode.vscode-node-azure-pack
 code --install-extension visualstudioonlineapplicationinsights.application-insights
 
-# fun
+# theme
 code --install-extension vscode-icons-team.vscode-icons
+code --install-extension GitHub.github-vscode-theme
 
 # git
 code --install-extension eamodio.gitlens
