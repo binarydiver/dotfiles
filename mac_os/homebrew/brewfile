@@ -35,6 +35,7 @@ brew "postman"
 # brew "ghostscript"
 # brew "defaultbrowser"
 brew "shottr"
+brew "imagemagic"
 
 # security
 cask "adguard"
