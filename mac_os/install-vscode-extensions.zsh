@@ -32,7 +32,8 @@ code --install-extension ms-vscode.vscode-typescript-tslint-plugin
 code --install-extension gruntfuggly.todo-tree
 code --install-extension MS-vsliveshare.vsliveshare
 code --install-extension VisualStudioExptTeam.vscodeintellicode
-code --install-extension chrisbibby.hide-node-modules
+code --install-extension VisualStudioExptTeam.intellicode-api-usage-examples
+code --install-extension VisualStudioExptTeam.vscodeintellicode-completions
 
 # web
 code --install-extension ms-edgedevtools.vscode-edge-devtools
