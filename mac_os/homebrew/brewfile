@@ -15,6 +15,7 @@ cask "google-drive"
 # development
 cask "docker"
 cask "iterm2"
+brew "alacritty"
 cask "fig"
 cask "visual-studio-code"
 cask "sourcetree"
@@ -24,6 +25,7 @@ brew "git-flow-avh"
 brew "azure-cli"
 brew "gh"
 brew "tree"
+brew "neovim"
 
 # utility
 cask "shiftit"
