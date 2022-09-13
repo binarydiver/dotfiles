@@ -41,6 +41,7 @@ brew "postman"
 brew "shottr"
 brew "imagemagic"
 brew "trash"
+cask "maccy"
 
 # security
 cask "adguard"
