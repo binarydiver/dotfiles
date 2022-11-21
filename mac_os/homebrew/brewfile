@@ -49,6 +49,7 @@ cask "shottr"
 #brew "imagemagic"
 brew "trash"
 cask "maccy"
+brew "youtube-dl"
 cask "vnc-viewer"
 
 # security
