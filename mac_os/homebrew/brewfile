@@ -53,6 +53,7 @@ brew "youtube-dl"
 cask "vnc-viewer"
 
 # security
+cask "authy"
 brew "gpg"
 cask "adguard"
 cask "1password"
