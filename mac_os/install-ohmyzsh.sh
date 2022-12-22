@@ -18,3 +18,8 @@ rm -f ~/.zcompdump; compinit
 brew install zsh-autosuggestions
 echo -e "\n# zsh-autosuggestions
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ~/.zshrc
+
+# Setup syntax highlighting
+brew install zsh-fast-syntax-highlighting
+echo -e "\n# zsh-fast-syntax-highlighting
+source /opt/homebrew/opt/zsh-fast-syntax-highlighting/share/zsh-fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh" >> ~/.zshrc
