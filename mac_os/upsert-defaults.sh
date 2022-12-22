@@ -6,6 +6,9 @@ defaults write com.apple.dock static-only -bool TRUE;
 # Indicate hidden app icons on Dock:
 defaults write com.apple.dock showhidden -bool TRUE;
 
+# Auto hide on Dock:
+defaults write com.apple.dock autohide -bool TRUE;
+
 # restart Dock:
 killall Dock;
 
