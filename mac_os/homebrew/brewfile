@@ -55,6 +55,7 @@ brew "trash"
 cask "vnc-viewer"
 #brew "watchman"
 brew "yt-dlp"
+brew "7-zip"
 
 # security
 cask "authy"
