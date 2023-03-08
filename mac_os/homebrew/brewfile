@@ -54,7 +54,7 @@ cask "shottr"
 brew "trash"
 cask "vnc-viewer"
 #brew "watchman"
-brew "youtube-dl"
+brew "yt-dlp"
 
 # security
 cask "authy"
