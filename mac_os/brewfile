@@ -1,0 +1,95 @@
+tap "homebrew/cask-fonts"
+# tap "homebrew/cask-versions"
+
+#############
+## Drivers ##
+#############
+# Logitech drive by brew not work, install directly.
+# cask "logitech-options"
+# cask "logitech-g-hub"
+
+########################
+## Productivity Tools ##
+########################
+mas "985367838" # Microsoft Outlook
+mas "784801555" # Microsoft OneNote
+mas "1274495053" # Microsoft To Do
+
+#####################
+## Developer Tools ##
+#####################
+cask "android-studio"
+# brew "azure-cli"
+# brew "cocoapods"
+cask "finch"
+cask "fig"
+cask "flutter"
+brew "gh"
+brew "git-flow-avh"
+cask "hyper"
+# cask "iterm2"
+# cask "microsoft-azure-storage-explorer"
+brew "neovim"
+brew "pnpm"
+cask "sourcetree"
+# brew "tmux"
+brew "tree"
+cask "visual-studio-code"
+
+################
+# Design Tools #
+################
+cask "figma"
+cask "gimp"
+
+###############
+## Utilities ##
+###############
+cask "appcleaner"
+# cask "betterdisplay"
+# brew "defaultbrowser"
+brew "exiftool"
+# brew "ghostscript"
+# brew "imagemagic"
+cask "namechanger"
+# cask "maccy"
+brew "postman"
+cask "rectangle"
+cask "shottr"
+cask "the-unarchiver"
+brew "trash"
+# cask "vnc-viewer"
+# brew "watchman"
+brew "yt-dlp"
+brew "7-zip"
+mas "1295203466" # Microsoft Remote Desktop"
+cask "utm"
+cask "crystalfetch" # Download Windows Images
+brew "btop" # Upgraded version of top command
+
+##############
+## Security ##
+##############
+cask "authy"
+brew "gpg"
+cask "adguard"
+cask "1password"
+# cask "gpg-suite"
+cask "keybase"
+brew "pinentry-mac"
+
+##################
+## Web Browsers ##
+##################
+cask "microsoft-edge"
+cask "google-chrome"
+
+###########
+## Fonts ##
+###########
+cask "font-d2coding"
+cask "font-dejavu-sans-mono-nerd-font"
+cask "font-fira-code-nerd-font"
+cask "font-jetbrains-mono-nerd-font"
+cask "font-pretendard"
+cask "font-source-code-pro"

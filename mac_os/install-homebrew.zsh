@@ -7,8 +7,9 @@ if [[ $(which brew) != "" ]] then
   # Install the correct homebrew for each OS type
   if [[ "$(uname)" = "Darwin" ]] || [[ "$(expr substr $(uname -s) 1 5)" = "Linux" ]]; then
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-    echo 'eval $(/opt/homebrew/bin/brew shellenv)' >> $HOME/.zprofile
-  else
+    (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/main/.zprofile  
+    brew install mas
+else
     echo "--- Not support OS."
   fi
 else

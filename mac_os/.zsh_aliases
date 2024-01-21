@@ -1,1 +1,1 @@
-alias edge="open -a Microsoft\ Edge --args -inprivate"
+alias edge="open -a Microsoft\ Edge -n --args -inprivate"

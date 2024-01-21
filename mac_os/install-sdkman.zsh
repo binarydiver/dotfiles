@@ -8,5 +8,5 @@ source "$HOME/.sdkman/bin/sdkman-init.sh"
 sdk version
 
 # Install Java
-sdk install java 8.0.362-amzn
-sdk install java 11.0.18-ms
+sdk install java 8.0.392-amzn
+sdk install java 11.0.21-ms

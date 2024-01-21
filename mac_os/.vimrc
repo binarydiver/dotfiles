@@ -31,4 +31,3 @@ set backspace=2
 if has("syntax")
  syntax on
 endif
-
