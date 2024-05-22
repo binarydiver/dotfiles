@@ -66,6 +66,7 @@ mas "1295203466" # Microsoft Remote Desktop"
 cask "utm"
 cask "crystalfetch" # Download Windows Images
 brew "btop" # Upgraded version of top command
+brew "wakeonlan" # WOL
 
 ##############
 ## Security ##
