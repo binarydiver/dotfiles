@@ -67,6 +67,7 @@ cask "utm"
 cask "crystalfetch" # Download Windows Images
 brew "btop" # Upgraded version of top command
 brew "wakeonlan" # WOL
+brew "drawio" # draw diagram
 
 ##############
 ## Security ##
