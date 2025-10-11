@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/usr/bin/env zsh
 
 # ref. https://github.com/ohmyzsh/ohmyzsh/wiki
 # ref. https://github.com/zsh-users/zsh-completions
@@ -16,8 +16,6 @@ if type brew &>/dev/null; then
   autoload -Uz compinit
   compinit
 fi" >> ~/.zshrc
-chmod -R go-w "$(brew --prefix)/share"
-rm -f ~/.zcompdump; compinit
 
 # Setup auto suggstion.
 brew install zsh-autosuggestions
