@@ -1,20 +1,17 @@
-tap "homebrew/cask-fonts"
-# tap "homebrew/cask-versions"
-tap "mac-cleanup/mac-cleanup-py"
+brew "mas"
 
 #############
 ## Drivers ##
 #############
-# Logitech drive by brew not work, install directly.
 # cask "logitech-options"
 # cask "logitech-g-hub"
 
 ########################
 ## Productivity Tools ##
 ########################
-mas "985367838" # Microsoft Outlook
-mas "784801555" # Microsoft OneNote
-mas "1274495053" # Microsoft To Do
+mas "Microsoft Outlook", id: "985367838"
+mas "Microsoft OneNote", id: "784801555"
+mas "Microsoft To Do", id: "1274495053"
 
 #####################
 ## Developer Tools ##
@@ -22,17 +19,18 @@ mas "1274495053" # Microsoft To Do
 cask "android-studio"
 # brew "azure-cli"
 # brew "cocoapods"
-cask "codewhisperer"
-cask "finch"
+cask "amazon-q"
+# cask "finch"
 cask "flutter"
 brew "gh"
-brew "git-flow-avh"
-cask "hyper"
+# brew "git-flow-avh"
+# cask "hyper"
 # cask "iterm2"
 # cask "microsoft-azure-storage-explorer"
+cask "alacritty"
 brew "neovim"
 brew "pnpm"
-cask "sourcetree"
+# cask "sourcetree"
 # brew "tmux"
 brew "tree"
 cask "visual-studio-code"
@@ -47,29 +45,26 @@ cask "gimp"
 ## Utilities ##
 ###############
 cask "appcleaner"
-# cask "betterdisplay"
-# brew "defaultbrowser"
 brew "exiftool"
 # brew "ghostscript"
 # brew "imagemagic"
-cask "namechanger"
+# cask "namechanger"
 # cask "maccy"
-brew "postman"
-cask "rectangle"
+# brew "postman"
+# cask "rectangle"
 cask "shottr"
 cask "the-unarchiver"
-brew "trash"
+brew "trash-cli"
 # cask "vnc-viewer"
 # brew "watchman"
 brew "yt-dlp"
-brew "7-zip"
-mas "1295203466" # Microsoft Remote Desktop"
-cask "utm"
-cask "crystalfetch" # Download Windows Images
+brew "p7zip"
+mas "Windows App", id: "1295203466"
+# cask "utm"
+# cask "crystalfetch" # Download Windows Images
 brew "btop" # Upgraded version of top command
-brew "wakeonlan" # WOL
-brew "drawio" # draw diagram
-brew "mac-cleanup-py" # clean up macos
+# brew "wakeonlan" # WOL
+# brew "drawio" # draw diagram
 
 ##############
 ## Security ##
@@ -79,7 +74,7 @@ brew "gpg"
 cask "adguard"
 cask "1password"
 # cask "gpg-suite"
-cask "keybase"
+# cask "keybase"
 brew "pinentry-mac"
 
 ##################
