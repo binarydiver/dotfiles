@@ -1,1 +1,2 @@
 alias edge="open -a Microsoft\ Edge -n --args -inprivate"
+alias text="open -a TextEdit"
