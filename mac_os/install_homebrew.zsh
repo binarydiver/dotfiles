@@ -11,3 +11,6 @@ brew install mas
 
 echo "-- Install brew bundle --"
 sudo -u $(whoami) brew bundle --file=./brewfile
+
+echo "-- Check installation --"
+brew doctor

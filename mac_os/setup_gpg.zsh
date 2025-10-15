@@ -2,6 +2,8 @@
 
 mkdir -p ~/.gnupg
 
-cp ./.gnupg/* ~/.gnupg/
+SCRIPT_DIR="${0:a:h}"
+
+cp $SCRIPT_DIR/.gnupg/* ~/.gnupg/
 
 gpgconf --reload

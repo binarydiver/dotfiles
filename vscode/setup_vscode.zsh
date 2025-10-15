@@ -17,8 +17,10 @@ code --install-extension ms-python.python
 code --install-extension ms-python.debugpy
 code --install-extension ms-python.vscode-python-envs
 
+SCRIPT_DIR="${0:a:h}"
+
 # replace key binding
-sudo cp ./keybindings.json ~/Library/Application Support/Code/User/
+sudo cp $SCRIPT_DIR/keybindings.js ~/Library/Application\ Support/Code/User/
 
 # replace settings
-sudo cp ./settings.json ~/Library/Application Support/Code/User/
+sudo cp $SCRIPT_DIR/settings.json ~/Library/Application\ Support/Code/User/

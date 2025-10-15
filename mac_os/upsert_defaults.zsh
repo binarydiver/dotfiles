@@ -9,6 +9,12 @@ defaults write com.apple.dock showhidden -bool TRUE;
 # Auto hide on Dock:
 defaults write com.apple.dock autohide -bool TRUE;
 
+# Minimize animation:
+defaults write com.apple.dock mineffect -string "scale"
+
+# Always auto hide menu bar
+defaults write -g _HIHideMenuBar -int 1
+
 # restart Dock:
 killall Dock;
 
@@ -20,3 +26,8 @@ defaults write com.apple.TextEdit NSFixedPitchFont 'NanumGothic';
 defaults write com.apple.TextEdit NSFixedPitchFontSize -int 16;
 defaults write com.apple.TextEdit WidthInChars -int 64
 defaults write com.apple.TextEdit HeightInChars -int 32
+
+# Other Settings
+defaults write NSGlobalDomain AppleKeyboardUIMode -int 2
+defaults write com.apple.WindowManager GloballyEnabled -bool true
+defaults write -g AppleClockTimeFormat -string "24h"

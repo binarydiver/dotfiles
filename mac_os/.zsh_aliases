@@ -1,2 +1,4 @@
+ICLOUD_HOME="$HOME/Library/Mobile Documents/com~apple~CloudDocs/"
+
 alias edge="open -a Microsoft\ Edge -n --args -inprivate"
 alias text="open -a TextEdit"

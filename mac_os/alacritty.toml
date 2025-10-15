@@ -1,0 +1,32 @@
+[general]
+live_config_reload = true
+
+[window]
+dimensions = { columns = 100, lines = 30 }   # Default terminal size
+padding = { x = 10, y = 10 }                 # Adds space around text
+dynamic_padding = true                       # Evenly distributes padding
+decorations = "Full"                         # Options: Full, None, Transparent (macOS)
+startup_mode = "Windowed"                    # Start maximized
+option_as_alt = "Both"
+
+[font]
+normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
+size = 15.0
+offset = { x = 0, y = 0 }
+glyph_offset = { x = 0, y = 0 }
+
+[mouse]
+hide_when_typing = false
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[keyboard]
+bindings = [
+  { key = "Left", mods = "Alt", chars = "\u001BB" },
+  { key = "Right", mods = "Alt", chars = "\u001BF" },
+  { key = "Left", mods = "Command", chars = "\u001bOH" },
+  { key = "Right", mods = "Command", chars = "\u001BOF" },
+]
+
