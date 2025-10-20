@@ -11,5 +11,6 @@
   "terminal.integrated.fontSize": 15,
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "git.autofetch": true,
-	"terminal.integrated.macOptionIsMeta": true
+	"terminal.integrated.macOptionIsMeta": true,
+  "workbench.editor.restoreViewState": false
 }
