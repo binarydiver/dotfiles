@@ -9,12 +9,12 @@
 ########################
 mas "Microsoft Outlook", id: 985367838
 mas "Microsoft OneNote", id: 784801555
-mas "Microsoft To Do", id: 1274495053
+# mas "Microsoft To Do", id: 1274495053
 
 #####################
 ## Developer Tools ##
 #####################
-cask "Xcode", id: 497799835
+mas "Xcode", id: 497799835
 cask "android-studio"
 # brew "azure-cli"
 # brew "cocoapods"
@@ -62,14 +62,13 @@ mas "Windows App", id: 1295203466
 # cask "utm"
 # cask "crystalfetch" # Download Windows Images
 brew "btop" # Upgraded version of top command
-# brew "wakeonlan" # WOL
 # brew "drawio" # draw diagram
 
 ##############
 ## Security ##
 ##############
 brew "gpg"
-cask "1password"
+# cask "1password"
 # cask "gpg-suite"
 # cask "keybase"
 brew "pinentry-mac"
