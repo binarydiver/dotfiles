@@ -17,6 +17,10 @@ if type brew &>/dev/null; then
   compinit
 fi" >> ~/.zshrc
 
+compaudit
+compaudit | xargs chmod g-w
+
+
 # Setup auto suggstion.
 brew install zsh-autosuggestions
 echo -e "\n# zsh-autosuggestions

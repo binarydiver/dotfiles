@@ -8,6 +8,8 @@ xcodebuild -license accept
 
 ./mac_os/install_mise.zsh
 
+source ~/.zshrc
+
 ./mac_os/setup_gpg.zsh
 
 ./mac_os/upsert_defaults.zsh

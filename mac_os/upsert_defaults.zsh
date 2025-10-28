@@ -31,3 +31,6 @@ defaults write com.apple.TextEdit HeightInChars -int 32
 defaults write NSGlobalDomain AppleKeyboardUIMode -int 2
 defaults write com.apple.WindowManager GloballyEnabled -bool true
 defaults write -g AppleClockTimeFormat -string "24h"
+
+# Change default location of screenshot:
+defaults write com.apple.screencapture location ~/Downloads
