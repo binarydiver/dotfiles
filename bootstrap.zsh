@@ -14,6 +14,8 @@ source ~/.zshrc
 
 ./mac_os/upsert_defaults.zsh
 
+./mac_os/install_wol.zsh
+
 ./vscode/setup_vscode.zsh
 
 cp ./mac_os/.zsh_aliases ~/
