@@ -17,6 +17,10 @@ code --install-extension ms-python.python
 code --install-extension ms-python.debugpy
 code --install-extension ms-python.vscode-python-envs
 
+# Java
+code --install-extension vscjava.vscode-java-pack
+code --install-extension vscjava.vscode-lombok
+
 SCRIPT_DIR="${0:a:h}"
 
 # replace key binding
