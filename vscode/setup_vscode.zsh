@@ -21,6 +21,10 @@ code --install-extension ms-python.vscode-python-envs
 code --install-extension vscjava.vscode-java-pack
 code --install-extension vscjava.vscode-lombok
 
+# Swift
+code --install-extension swiftlang.swift-vscode
+
+# Get directory of current script
 SCRIPT_DIR="${0:a:h}"
 
 # replace key binding
