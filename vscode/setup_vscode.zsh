@@ -24,6 +24,9 @@ code --install-extension vscjava.vscode-lombok
 # Swift
 code --install-extension swiftlang.swift-vscode
 
+# Container Tools
+code --install-extension ms-azuretools.vscode-containers
+
 # Get directory of current script
 SCRIPT_DIR="${0:a:h}"
 
