@@ -27,6 +27,9 @@ code --install-extension swiftlang.swift-vscode
 # Container Tools
 code --install-extension ms-azuretools.vscode-containers
 
+# PostgreSQL
+code --install-extension ms-ossdata.vscode-pgsql
+
 # Get directory of current script
 SCRIPT_DIR="${0:a:h}"
 
